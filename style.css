@@ -1,2 +1,31 @@
 /* Menu de navigation */
 
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+
+header{
+    height: 150px;
+    width: 100%;
+    background-color: lightblue;
+    box-shadow: inset 1px 1px 17px 1px rgba(0,0,0,0.62);
+}
+
+ul{
+    list-style: none;
+    
+}
+
+.navbar{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}

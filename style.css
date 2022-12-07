@@ -1,4 +1,4 @@
-/* Menu de navigation */
+ /* Menu de navigation */
 
 html,body{
     width: 100%;
@@ -8,24 +8,44 @@ html,body{
 body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: lightgoldenrodyellow;
-}
+} 
 
-header{
+header{ 
     height: 150px;
     width: 100%;
     background-color: lightblue;
     box-shadow: inset 1px 1px 17px 1px rgba(0,0,0,0.62);
-}
-
-ul{
-    list-style: none;
-    
+    padding: 5px 5px;
 }
 
 .navbar{
     width: 100%;
     position: absolute;
     display: flex;
-    padding: 5px;
+    padding: 5px; 
     justify-content: space-between;
+    align-items: center;
 }
+
+ul{
+    list-style: none;
+}
+
+.navbar .nav-links ul{
+    display: flex;
+    text-decoration: none;
+}
+
+.navbar .nav-links ul li{
+    margin: 0 25px;
+    text-decoration: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: grey;
+}
+
+.navbar a:hover{
+    color: red;
+}  

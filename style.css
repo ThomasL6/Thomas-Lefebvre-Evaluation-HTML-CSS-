@@ -20,7 +20,7 @@ header{
 
 .navbar{
     width: 100%;
-    position: absolute;
+    position: relative;
     display: flex;
     padding: 5px; 
     justify-content: space-between;
@@ -49,3 +49,29 @@ ul{
 .navbar a:hover{
     color: red;
 }  
+
+@media screen and (max-width : 950px){
+    .navbar{
+        padding: 0;
+    }
+
+    .nav-links{
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content:space-around ;
+    }
+    
+    .nav-links ul{
+        display: flex;
+        flex-direction: row;
+        align-items: top;
+    }
+
+    .logo{
+        display: none;
+    }
+}

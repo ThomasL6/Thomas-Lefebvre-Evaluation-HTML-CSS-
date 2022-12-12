@@ -49,7 +49,29 @@ ul{
 .navbar a:hover{
     color: red;
 }  
+/* Fin de la barre de navigation */
 
+/* Début de Main */
+h1{
+    text-align: center;
+    color: #a71b1b;
+}
+.presentation{
+    display: inline-block;
+    align-items: center;
+    color: #0d192a; 
+    width: 100%;
+}
+
+.presentation h2{
+    font-size: 16px;
+    color: blue;
+    text-align: center;
+}
+
+/* Fin de Main */
+
+/* Media Querry pour responsive */
 @media screen and (max-width : 950px){
     .navbar{
         padding: 0;

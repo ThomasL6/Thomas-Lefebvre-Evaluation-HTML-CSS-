@@ -43,7 +43,7 @@ ul{
 
 .navbar a{
     text-decoration: none;
-    color: grey;
+    color: #4e3636;
 }
 
 .navbar a:hover{
@@ -64,11 +64,22 @@ h1{
 }
 
 .presentation h2{
-    font-size: 16px;
     color: blue;
     text-align: center;
 }
 
+.presentation .accueil{
+    padding: 5px;
+}
+
+.contenu{
+    display: flex;
+}
+
+.peinture{
+    width: 50%;
+    padding: 5px;
+}
 /* Fin de Main */
 
 /* Media Querry pour responsive */

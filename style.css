@@ -108,10 +108,10 @@ h1{
 
 /* Media Querry pour responsive */
 @media screen and (max-width : 1280px){
-    /* .navbar{
+    .navbar{
         padding: 0;
         background-color: none;
-    } */
+    }
 
     header{
         background-color: lightgoldenrodyellow;
@@ -149,21 +149,12 @@ h1{
         width: 100%;
     }
 
-    .peinture{
+    .peinture, .tablesJeu{
         width: auto;
     }
 
-    .tablesJeu{
-        width: auto;
-    }
-
-    .plateau {
+    .plateau, .paint{
         width: auto;
         height: 200px;
     }
-
-    .paint{
-        width: auto;
-        height: 200px;
-    }
-}
+} 

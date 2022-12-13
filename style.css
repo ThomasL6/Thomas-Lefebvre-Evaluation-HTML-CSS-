@@ -76,16 +76,45 @@ h1{
     display: flex;
 }
 
+.contenu h3{
+    text-align: center;
+}
+
 .peinture{
     width: 50%;
     padding: 5px;
+    background-color: aqua;
+}
+
+.peinture .paint{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablesJeu{
+    display:inline;
+    width: 50%;
+    background-color: #a71b1b;
+}
+
+.tablesJeu .plateau{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 /* Fin de Main */
 
 /* Media Querry pour responsive */
-@media screen and (max-width : 950px){
+@media screen and (max-width : 1280px){
     .navbar{
         padding: 0;
+        background-color: none;
+    }
+
+    header{
+        background-color: lightgoldenrodyellow;
+        box-shadow: none;
     }
 
     .nav-links{
@@ -95,16 +124,32 @@ h1{
         width: 100%;
         height: 100vh;
         display: flex;
-        justify-content:space-around ;
     }
     
+    .body{
+        text-align: center;
+    }
+
     .nav-links ul{
         display: flex;
         flex-direction: row;
         align-items: top;
     }
 
+    body{
+        align-items: center;
+    }
+
     .logo{
         display: none;
+    }
+
+    .contenu{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .peinture{
+        width: auto;
     }
 }

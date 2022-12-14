@@ -84,7 +84,12 @@ h1{
 .peinture{
     width: 50%;
     padding: 5px;
-    background-color: aqua;
+    background: #62CEA4;
+    background: -moz-linear-gradient(45deg, #62CEA4 0%, #7290A4 36%, #C58594 100%);
+    background: -webkit-linear-gradient(45deg, #62CEA4 0%, #7290A4 36%, #C58594 100%);
+    background: linear-gradient(45deg, #62CEA4 0%, #7290A4 36%, #C58594 100%);
+    border: 3px solid #091a1a;
+    border-radius: 5px;
 }
 
 .peinture .paint{
@@ -94,15 +99,26 @@ h1{
 }
 
 .tablesJeu{
-    display:inline;
+    display:block;
     width: 50%;
-    background-color: #a71b1b;
+    background: #FFFBD3;
+    background: -webkit-linear-gradient(-45deg, #FFFBD3 0%, #FF0E0E 56%, #FDFFD3 100%);
+    background: linear-gradient(135deg, #FFFBD3 0%, #FF0E0E 56%, #FDFFD3 100%);
+    background: -moz-linear-gradient(-45deg, #FFFBD3 0%, #FF0E0E 56%, #FDFFD3 100%);
+    border: 3px solid #1C6EA4;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 .tablesJeu .plateau{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.tablesJeu p{
+    text-align: justify;
+    margin-top: 50px;
 }
 /* Fin de Main */
 
@@ -114,7 +130,7 @@ h1{
     }
 
     header{
-        background-color: lightgoldenrodyellow;
+        background-color: rgb(210, 250, 247);
         box-shadow: none;
     }
 
@@ -134,6 +150,9 @@ h1{
         display: flex;
         flex-direction: column;
         align-items: top;
+        align-items: stretch;
+        font-weight: bold;
+        font-size: large;
     }
 
     body{

@@ -11,10 +11,11 @@ body{
 header {
     display: flex;
     justify-content: center;
+    background-color: lightblue;
 }
 
-p{
-    font-size: 2em;
+.eventAnnuel{
+    background-color: #f93e3e;
 }
 
 button {

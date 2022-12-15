@@ -84,10 +84,7 @@ h1{
 .peinture{
     width: 50%;
     padding: 5px;
-    background: #62CEA4;
-    background: -moz-linear-gradient(45deg, #62CEA4 0%, #7290A4 36%, #C58594 100%);
-    background: -webkit-linear-gradient(45deg, #62CEA4 0%, #7290A4 36%, #C58594 100%);
-    background: linear-gradient(45deg, #62CEA4 0%, #7290A4 36%, #C58594 100%);
+    background: linear-gradient(45deg, #62CEA4 0%, #f2f4d3 36%, #C58594 100%);
     border: 3px solid #091a1a;
     border-radius: 5px;
 }
@@ -102,10 +99,8 @@ h1{
     display:block;
     width: 50%;
     background: #FFFBD3;
-    background: -webkit-linear-gradient(-45deg, #FFFBD3 0%, #FF0E0E 56%, #FDFFD3 100%);
     background: linear-gradient(135deg, #FFFBD3 0%, #FF0E0E 56%, #FDFFD3 100%);
-    background: -moz-linear-gradient(-45deg, #FFFBD3 0%, #FF0E0E 56%, #FDFFD3 100%);
-    border: 3px solid #1C6EA4;
+    border: 3px solid #091a1a;
     border-radius: 5px;
     padding: 5px;
 }

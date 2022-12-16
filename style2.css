@@ -5,20 +5,98 @@ html{
 
 body{
     background: #e3e66a;
-    background: -webkit-linear-gradient(top, #b6aa3b 0%, #e9e65a 50%, #ebe836 100%);
+    background: -webkit-linear-gradient(top, #b6aa3b 0%, #f6f107 50%, #c4c23a 100%);
 }
 
 header {
     display: flex;
     justify-content: center;
-    background-color: lightblue;
+    background-color: #49e6ff96;
 }
 
 .eventAnnuel{
-    background-color: #f93e3e;
+    background-color: rgb(193 255 192);
 }
 
-button {
+
+
+button:hover {
+    color: #0e0101;
+    background-color: #9aff15;
+}
+
+.autreActivite{
+    display: flex;
+}
+
+.concours{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.concours button{
+    display: inline-block;
+    justify-content: space-around;
+    
+}
+
+.conversion{
+    font-size: 19px;
+    border: 2px solid #1f232c;
+    border-radius: 14px;
+    padding: 15px 50px;
+    background-color: #4c3a2d;
+    margin: 15px;
+}
+
+.peinture{
+    font-size: 19px;
+    border: 2px solid #1f232c;
+    border-radius: 14px;
+    padding: 15px 50px;
+    background-color: #4c3a2d;
+}
+
+.tournoi{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+
+.tournament{
+    font-size: 19px;
+    border: 2px solid #1f232c;
+    border-radius: 14px;
+    padding: 15px 50px;
+    background-color: #4c3a2d;
+    margin: 15px;
+}
+
+.initiation{
+    font-size: 19px;
+    border: 2px solid #1f232c;
+    border-radius: 14px;
+    padding: 15px 50px;
+    background-color: #4c3a2d;
+}
+
+.parties{
+    font-size: 19px;
+    border: 2px solid #1f232c;
+    border-radius: 14px;
+    padding: 15px 50px;
+    background-color: #4c3a2d;
+}
+
+footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer button {
     background-color: #17eedf;
     font-size: 19px;
     border: 2px solid #2d63c8;
@@ -29,9 +107,29 @@ button {
     position: fixed;
     bottom: 0;
     right: 0; 
+    z-index: 1;
 }
 
-button:hover {
-    color: #0e0101;
-    background-color: #f93e3e;
+@media screen and (max-width : 1280px){
+    .autreActivite{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .concours{
+        display: inline-block;
+        width: 100%;
+        background: linear-gradient(135deg, #26CE7B 0%, #1FB9C5 100%);
+    }
+
+    .tournoi{
+        width: 100%;
+        flex-direction: column;
+        background: #e3e66a;
+        background: -webkit-linear-gradient(top, #b6aa3b 0%, #f6f107 50%, #c4c23a 100%);
+    }
+
+    footer{
+        position: relative;
+    }
 }
